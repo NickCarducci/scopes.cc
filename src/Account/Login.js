@@ -395,7 +395,7 @@ if(this.state.Seastioid !== ""){
     if (existingUsernames.includes(this.state.username)) {
       //console.log("finishSignUp");
       if (!this.state.stopSubmit) {
-        setTimeout(this.setState({ stopSubmit: true }), 500);
+        setTimeout(()=>this.setState({ stopSubmit: true }), 500);
       }
     } else {
       if (this.state.stopSubmit) {
