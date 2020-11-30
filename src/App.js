@@ -74,7 +74,7 @@ class App extends React.Component {
         />
       );
     };
-    const BumpRoute = ({ component: Component, ...rest }, props) => {
+    /*const BumpRoute = ({ component: Component, ...rest }, props) => {
       let { from } = {
         from: { pathname: "/" }
       };
@@ -90,7 +90,7 @@ class App extends React.Component {
           }
         />
       );
-    };
+    };*/
     return (
       <div
         style={{
